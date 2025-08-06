@@ -7,7 +7,7 @@ space_count = text.count(' ')
 
 word_freq = {}
 for word in words:
-    word = word.lower().strip(".,!?")  # clean punctuation
+    word = word.lower().strip(".,!?") 
     word_freq[word] = word_freq.get(word, 0) + 1
 
 top_words = sorted(word_freq.items(), key=lambda x: x[1], reverse=True)[:3]
