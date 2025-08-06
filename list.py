@@ -1,4 +1,3 @@
-# Create a list
 l = [5, 2, 9, 1, 5, 6]
 print("Original List:",l)
 
