@@ -1,0 +1,3 @@
+Python file handling example.
+This is line 2.
+This line is appended.
