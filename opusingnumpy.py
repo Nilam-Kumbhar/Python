@@ -1,0 +1,10 @@
+import numpy as np
+a=np.array([1,2,3,4,5])
+b=np.array([[1,2],[3,4]])
+c=np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,12,13]]])
+print("1D array:\n",a)
+print(f"no. of element (row column):{a.shape} dimension: {a.ndim}")
+print("2D array:\n",b)
+print(f"no. of element (row column):{b.shape} dimension: {b.ndim}")
+print("3D array:\n",c)
+print(f"no. of element (row column):{c.shape} dimension: {c.ndim}")
